@@ -16,3 +16,9 @@ mybutton.onclick = function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
+
+document.getElementById('whatsapp-link').addEventListener('click', function() {
+  var phoneNumber = '+201003821128'; // Replace with your phone number
+  var whatsappURL = 'https://wa.me/' + phoneNumber;
+  window.open(whatsappURL, '_blank');
+});

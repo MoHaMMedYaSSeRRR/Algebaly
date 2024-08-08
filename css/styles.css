@@ -180,7 +180,9 @@ footer ul {
 .list-group-item{
   width: 65%;
 }
-
+#whatsapp-link{
+  cursor: pointer !important;
+}
 
 /* Responsive */
 @media (max-width: 1295px) {
@@ -295,6 +297,7 @@ footer ul {
   }
   .driver-app {
     background-image: none;
+    
   }
   .just-font {
     font-size: 1rem !important;
